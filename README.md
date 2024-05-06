@@ -1,4 +1,4 @@
-# Wireshark | Packet Analysis
+# Wireshark | Network Packet Analyser
 
 ## Introduction 
 In this project I use Wireshark, a tool used to capture and analyse network traffic to intercept and record data packets transmitted between computers on a network as proof of concept that Telnet is not secure. 
