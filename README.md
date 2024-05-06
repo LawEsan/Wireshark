@@ -31,7 +31,9 @@ Software requirements:
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53702550856/in/dateposted-public/" title="Ubuntu 22.04"><img src="https://live.staticflickr.com/65535/53702550856_26e3201861_c.jpg" width="800" height="429" alt="Ubuntu 22.04"/>
 
 ##  Install Windows 10 ISO Enterprise in Oracle VirtualBox
-![Create Windows-10 VM]
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53702842713/in/dateposted-public/" title="Create Windows-10 VM"><img src="https://live.staticflickr.com/65535/53702842713_005cea6129_c.jpg" width="800" height="445" alt="Create Windows-10 VM"/></a>
+
 - Open Oracle VirtualBox
 - Create a new virtual machine by clicking “New”
 - Name: Windows-10
@@ -43,7 +45,9 @@ Software requirements:
 - Finish
 
 ##  Install Ubuntu in Oracle VirtualBox
-![Ubuntu Install] 
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53702966399/in/dateposted-public/" title="Ubuntu Install"><img src="https://live.staticflickr.com/65535/53702966399_b8563f7122_c.jpg" width="800" height="552" alt="Ubuntu Install"/></a>
+
 - Create a new virtual machine by clicking “New”
 - Name: ubuntu
 - Folder: C:\Users\lesan\VirtualBox VMs
@@ -58,7 +62,7 @@ Software requirements:
 - Disk Size: 25 GB → Next 
 - Finish
 
-![Win-10 VM setup2] 
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53703060670/in/dateposted-public/" title="Win-10 VM setup 2"><img src="https://live.staticflickr.com/65535/53703060670_2f8339abae_c.jpg" width="800" height="446" alt="Win-10 VM setup 2"/></a>
 
 ## Configure Ubuntu Network Settings
 - In Oracle VirtualBox, click on Ubuntu VM
@@ -102,7 +106,7 @@ Software requirements:
 - Ethernet (enp0s3) is the NAT (Network Address Translation) which is associated with the external network, typically the internet
 - Ethernet (enp0s8) is the LAN (Local Area Network) connection which is associated with the internal network within your local environment
 
-![Ubuntu Terminal] 
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53702842658/in/dateposted-public/" title="Ubuntu Terminal"><img src="https://live.staticflickr.com/65535/53702842658_d92abbf7fe_c.jpg" width="800" height="551" alt="Ubuntu Terminal"/></a>
 
 - Click on Ethernet (enp0s8) and turn on
 - Go back to Ubuntu VM home screen → open Settings → Network
@@ -112,14 +116,14 @@ Software requirements:
 - Netmask: 255.255.255.0
 - Apply
 
-![Ubuntu LAN Change IP address] 
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53702966454/in/dateposted-public/" title="Ubuntu LAN change IP address"><img src="https://live.staticflickr.com/65535/53702966454_9085460e8e_c.jpg" width="800" height="553" alt="Ubuntu LAN change IP address"/></a>
 
 
 - In the Terminal app, Ethernet (enp0s8) should now appear as connected
 - Verify connection is established by typing the command ip a → press enter key
 - You should see the IPv4 address you assigned 192.168.50.100
 
-![Ubuntu LAN IP has changed]
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53703060730/in/dateposted-public/" title="Ubuntu LAN IP has changed"><img src="https://live.staticflickr.com/65535/53703060730_041eb9ba56_c.jpg" width="800" height="552" alt="Ubuntu LAN IP has changed"/></a>
 
 ## Configure LAN (Internal) in Windows-10 VM
 - Power on Windows-10 VM
@@ -133,7 +137,7 @@ Software requirements:
 - Settings → Network & Internet → Status → Change adapter options
 - You should now see two network connections, Ethernet & Ethernet 2
 
-![2 Network Connections]
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53702966384/in/dateposted-public/" title="2 Network Connections"><img src="https://live.staticflickr.com/65535/53702966384_24909a3da2_c.jpg" width="800" height="554" alt="2 Network Connections"/></a>
 
 - Right click Ethernet 2 → Properties → Internet Protocol Version 4 (TCP/IPv4) → Properties → Click Use the following IP address:
 - IP address: 192.168.50.50
@@ -149,7 +153,7 @@ Software requirements:
 - ping 192.168.50.50
 - It is NOT pinging. The reason why it is not pinging is because there is a Firewall that is ON.
 
-![Ubuntu can not ping]
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53702966469/in/dateposted-public/" title="Ubuntu can not ping"><img src="https://live.staticflickr.com/65535/53702966469_a05994b156_c.jpg" width="800" height="590" alt="Ubuntu can not ping"/></a>
 
 - You need to turn the Firewall OFF
 - Settings → Windows Security → Firewall & network protection
@@ -158,7 +162,7 @@ Software requirements:
 - ping 192.168.50.50
 - It is pinging now, you should be receiving replies indicating it is working. 
 
-![Ubuntu can ping]
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53702842708/in/dateposted-public/" title="Ubuntu can ping"><img src="https://live.staticflickr.com/65535/53702842708_4eac252bac_c.jpg" width="800" height="590" alt="Ubuntu can ping"/></a>
 
 ## Download Wireshark & Putty to Windows-10 
 - In Windows-10 VM → open Microsoft Edge browser
@@ -182,14 +186,16 @@ Software requirements:
 - You can verify it is installed by running this command “sudo dpkg -l | grep telnetd
 
 ## Telnet from Windows-10 to Ubuntu VM and capture Wireshark packet analysis
-![Wireshark capture Ethernet 2]
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53702626046/in/dateposted-public/" title="Wireshark capture Ethernet 2"><img src="https://live.staticflickr.com/65535/53702626046_8622beaa31_c.jpg" width="800" height="669" alt="Wireshark capture Ethernet 2"/></a>
+
 - In Windows-10, open Wireshark  app
 - Click Ethernet 2
 - Open putty.exe app
 - Click Other → Telnet
 - Host Name: 192.168.50.100
 
-![Putty Configuration] 
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53702626136/in/dateposted-public/" title="Putty Configuration"><img src="https://live.staticflickr.com/65535/53702626136_73f2db6e05_o.png" width="448" height="433" alt="Putty Configuration"/></a>
 
 - NOTE: This is your Ubuntu IP address. If you are unsure what this, simply go into your Ubuntu VM, open terminal and run the command ip a
 - Click Open (this will Telnet to that IP address and at the same time capture the packet). 
@@ -201,11 +207,13 @@ Software requirements:
 - Run the command “whoami” and it should return “bob”
 - Wireshark should be running in the background capturing packets. Click the red square icon to stop the packet capture.
 - Type telnet in the search bar and press the enter key to get all the capture data for TCP traffic and telenet traffic
-![Wireshark Packet Analysis]
+  
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53702626016/in/dateposted-public/" title="Wireshark Packet Analysis"><img src="https://live.staticflickr.com/65535/53702626016_72b8fb2740_c.jpg" width="800" height="661" alt="Wireshark Packet Analysis"/></a>
+
 - To get the TCP stream → right click on any telnet result → Follow → TCP Stream
 - In the TCP Stream, you will be able to see what the user typed. You can see the user’s username is bob, the password the user typed and the last command the user ran in Terminal which was “whoami”. This means you have successfully sniffed the packet. 
 
-![Wireshark TCP stream]
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53703060640/in/dateposted-public/" title="Wireshark TCP Stream"><img src="https://live.staticflickr.com/65535/53703060640_83dc772952_c.jpg" width="673" height="725" alt="Wireshark TCP Stream"/></a>
 
 ## Conclusion 
 Telnet is a network protocol that allows a user to remotely access and control another computer over the Internet or local area network (LAN). However, its reliance on plain text communication poses inherent security risks. Anyone intercepting the data packets could potentially eavesdrop on the communication between Windows-10 and Ubuntu VM, compromising sensitive information. This project serves as a demonstration of Telnet's insecurity, highlighting the superiority of SSH as a more secure alternative.
