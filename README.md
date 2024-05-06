@@ -15,16 +15,19 @@ Software requirements:
 - Download Windows 64-bit Oracle VM VirtualBox Base Packages - 7.0.14
 - Download Oracle VM VirtualBox Extension Pack 7.0.14  7.0.14 ExtPack
 
+
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53695515776/in/dateposted-public/" title="VirtualBox download"><img src="https://live.staticflickr.com/65535/53695515776_534153fcca_c.jpg" width="800" height="409" alt="VirtualBox download"/></a>
 
 ## Download Windows 10 ISO Enterprise
 - Go to https://www.microsoft.com/en-us/evalcenter/download-windows-10-enterprise
 - Download ISO - Enterprise 64-bit edition
-![Windows 10 ISO Enterprise]
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53702985780/in/dateposted-public/" title="Download Windows 10 ISO Enterprise"><img src="https://live.staticflickr.com/65535/53702985780_114173a49d_c.jpg" width="800" height="283" alt="Download Windows 10 ISO Enterprise"/></a>
 
 ## Download Ubuntu 22.04.4 LTS (Jammy Jellyfish)
 - Go to https://www.releases.ubuntu.com/jammy/
 - Download 64-bit PC (AMD64) desktop image
+  
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53702550856/in/dateposted-public/" title="Ubuntu 22.04"><img src="https://live.staticflickr.com/65535/53702550856_26e3201861_c.jpg" width="800" height="429" alt="Ubuntu 22.04"/>
 
 ##  Install Windows 10 ISO Enterprise in Oracle VirtualBox
@@ -163,12 +166,12 @@ Software requirements:
 - Download Windows x64 Installer
 - Install
 
-![Wireshark download]
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53702892159/in/dateposted-public/" title="Wireshark download"><img src="https://live.staticflickr.com/65535/53702892159_a0d1ba7e90_c.jpg" width="800" height="327" alt="Wireshark download"/></a>
 
 - Go to https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 - Download from Alternative binary files, putty.exe (the SSH and Telnet client itself) 64-bit x86:
 
-![Putty download]
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53702550841/in/dateposted-public/" title="Putty download"><img src="https://live.staticflickr.com/65535/53702550841_ef17982883_c.jpg" width="800" height="205" alt="Putty download"/></a>
 
 ##  Install Telnet on Ubuntu VM via Terminal 
 - Open Terminal app
