@@ -25,7 +25,7 @@ Software requirements:
 ## Download Ubuntu 22.04.4 LTS (Jammy Jellyfish)
 - Go to https://www.releases.ubuntu.com/jammy/
 - Download 64-bit PC (AMD64) desktop image
-![Ubuntu 22.4]
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53702550856/in/dateposted-public/" title="Ubuntu 22.04"><img src="https://live.staticflickr.com/65535/53702550856_26e3201861_c.jpg" width="800" height="429" alt="Ubuntu 22.04"/>
 
 ##  Install Windows 10 ISO Enterprise in Oracle VirtualBox
 ![Create Windows-10 VM]
