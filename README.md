@@ -1,7 +1,7 @@
 # Wireshark | Packet Analysis
 
 ## Introduction 
-In this project I use Wireshark to sniff sensitive information over Telnet as proof of concept that Telnet is not secure. 
+In this project I use Wireshark, a tool used to capture and analyse network traffic to intercept and record data packets transmitted between computers on a network as proof of concept that Telnet is not secure. 
 
 Software requirements:
 1. Oracle VirtualBox
