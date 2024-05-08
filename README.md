@@ -36,7 +36,7 @@ Software requirements:
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53702842713/in/dateposted-public/" title="Create Windows-10 VM"><img src="https://live.staticflickr.com/65535/53702842713_005cea6129_c.jpg" width="800" height="445" alt="Create Windows-10 VM"/></a>
 
-- Open Oracle VirtualBox
+- <ins>Open Oracle VirtualBox</ins>
 - Create a new virtual machine by clicking “New”
 - Name: Windows-10
 - Folder: C:\Users\lesan\VirtualBox VMs
