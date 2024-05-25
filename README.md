@@ -3,7 +3,7 @@
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/200533061@N05/53701786467/in/datetaken/" title="Wireshark"><img src="https://live.staticflickr.com/65535/53701786467_1e92afe082_c.jpg" width="800" height="601" alt="Wireshark"/></a>
 
 ## Introduction 
-In this project I use Wireshark, a tool used to capture and analyse network traffic to intercept and record data packets transmitted between computers on a network as proof of concept that Telnet is not secure. 
+In this project I use Wireshark, a tool used to capture and analyse network traffic to intercept and record data packets transmitted between computers on a network as proof of concept that Telnet is not a secure protocol. 
 
 Software requirements:
 1. Oracle VirtualBox
